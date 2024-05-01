@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Weather</string>
+
+    <string name="search">search</string>
+    <string name="errorMassage">Please \n Check Your Internet \n Search City Name</string>
+    <string name="visibility"> Visibility..</string>
+    <string name="humidity">Humidity</string>
+    <string name="pressure">Pressure</string>
+    <string name="wind">WindSpeed</string>
+    <string name="sunset">Sunset   </string>
+    <string name="sunrise">Sunrise</string>
+
+</resources>

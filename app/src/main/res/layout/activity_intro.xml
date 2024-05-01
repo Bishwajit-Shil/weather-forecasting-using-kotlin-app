@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="@color/white"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView android:textSize="40.0dip"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="WEATHER" />
+        <ImageView
+            android:layout_gravity="center"
+            android:id="@+id/logoW"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logoweather" />
+        <Space
+            android:layout_width="fill_parent"
+            android:layout_height="10.0dip" />
+        <TextView android:textSize="20dp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:text="Develop By \n JITSHIL" />
+    </LinearLayout>
+</LinearLayout>
